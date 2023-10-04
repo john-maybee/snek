@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" herf="style.css" />
-        <script src="script.js" type="module" defer></script>
-        <title>Snek "The Hangry Boi"</title>
-    </head>
-    <body>
-        
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module" defer></script>
+    <title>Snek The Hangry Boi</title>
+  </head>
+  <body>
+    <header>
+      <h1>Snek The Hangry Boi</h1>
+    </header>
+    <button class="start-btn" data-content="Start">Start</button>
+    <div class="score">Score: <span>0</span></div>
+    <div class="grid"></div>
+    <div class="keys-container">
+      <button id="ArrowUp">
+        <svg width="30" height="30" viewBox="0 0 10 10">
+          <g transform="rotate(0, 5, 5)">
+            <path d="M5,4 L7,6 L3,6 L5,4" />
+          </g>
+        </svg>
+      </button>
+      <button id="ArrowLeft">
+        <svg width="30" height="30" viewBox="0 0 10 10">
+          <g transform="rotate(-90, 5, 5)">
+            <path d="M5,4 L7,6 L3,6 L5,4" />
+          </g>
+        </svg>
+      </button>
+      <button id="ArrowDown">
+        <svg width="30" height="30" viewBox="0 0 10 10">
+          <g transform="rotate(180, 5, 5)">
+            <path d="M5,4 L7,6 L3,6 L5,4" />
+          </g>
+        </svg>
+      </button>
+      <button id="ArrowRight">
+        <svg width="30" height="30" viewBox="0 0 10 10">
+          <g transform="rotate(90, 5, 5)">
+            <path d="M5,4 L7,6 L3,6 L5,4" />
+          </g>
+        </svg>
+      </button>
+    </div>
+  </body>
 </html>
+
+
